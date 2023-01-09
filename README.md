@@ -4,7 +4,6 @@ A palindrome is a word, number, phrase, or other sequence of symbols that reads 
 .
 .
 
-
     run = True
     while run:
         user_input = input('Please type a word or number to check if it is a Palindrom or not or type exit: ')
