@@ -7,7 +7,6 @@ while run:
     user = ''.join(filter(str.isalnum, user_input)) # removes all the non-alphanumic characters.
     lowercase = user.lower() # turn the input word into a lowercase word - dows nothing on numbers.
     characters = list(lowercase) # turn the input word into a list of characters.
-
     length = len(characters) # counts the number of characters
 
 
