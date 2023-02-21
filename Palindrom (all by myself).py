@@ -8,8 +8,6 @@ while run:
     lowercase = user.lower() # turn the input word into a lowercase word - dows nothing on numbers.
     characters = list(lowercase) # turn the input word into a list of characters.
     length = len(characters) # counts the number of characters
-
-
     for c,i in zip(characters, range(length)):
         reverse_char = characters[(length - 1 - i)]
         if c != reverse_char:
