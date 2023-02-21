@@ -1,7 +1,6 @@
 run = True
 while run:
     user_input = input('Please type a word or number to check if it is a Palindrom or not or type exit: ')
-
     if user_input == 'exit':
         run = False
         break
