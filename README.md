@@ -21,4 +21,3 @@ A palindrome is a word, number, phrase, or other sequence of symbols that reads 
                     print(True)
 
 
-
