@@ -1,8 +1,5 @@
 # Palindrom
 A palindrome is a word, number, phrase, or other sequence of symbols that reads the same backwards as forwards, such as the words madam or racecar, the date and time 11/11/11 11:11, and the sentence: "A man, a plan, a canal – Panama".
-.
-.
-.
 
 
     run = True
@@ -12,7 +9,6 @@ A palindrome is a word, number, phrase, or other sequence of symbols that reads 
         if user_input == 'exit':
             run = False
             break
-
         user = ''.join(filter(str.isalnum, user_input)) # removes all the non-alphanumic characters.
         lowercase = user.lower() # turn the input word into a lowercase word - does nothing on numbers.
         characters = list(lowercase) # turn the input word into a list of characters.
