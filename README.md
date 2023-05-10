@@ -20,4 +20,3 @@ A palindrome is a word, number, phrase, or other sequence of symbols that reads 
                 if i == length-1:
                     print(True)
 
-
