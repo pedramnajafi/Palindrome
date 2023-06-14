@@ -5,7 +5,8 @@ A palindrome is a word, number, phrase, or other sequence of symbols that reads 
     run = True
     while run:
         user_input = input('Please type a word or number to check if it is a Palindrom or not or type exit: ')
-        if user_input == 'exit':
+       
+       if user_input == 'exit':
             run = False
             break
         user = ''.join(filter(str.isalnum, user_input)) # removes all the non-alphanumic characters.
